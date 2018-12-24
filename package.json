@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "concurrently --kill-others \"tsc -w\" \"nodemon dist/test.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "node dist/test.js"
   },
   "author": "",
   "license": "ISC",
